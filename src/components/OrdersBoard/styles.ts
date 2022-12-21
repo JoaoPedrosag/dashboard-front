@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export const Board = styled.div`
   background: #fefefe;
   margin: ${(props) => props.theme.FONT_SIZE['2xl']} 0;
@@ -21,4 +20,3 @@ export const Board = styled.div`
     gap: ${(props) => props.theme.FONT_SIZE.xxs};
   }
 `;
-
