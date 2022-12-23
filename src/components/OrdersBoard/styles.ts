@@ -12,7 +12,7 @@ export const Board = styled.div`
   flex: 1;
   justify-content: center;
 
-  header {
+  > header {
     padding: ${(props) => props.theme.FONT_SIZE.xxs};
     font-size: ${(props) => props.theme.FONT_SIZE.xs};
     display: flex;

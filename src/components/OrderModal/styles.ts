@@ -25,7 +25,7 @@ export const ModalBody = styled.div`
     justify-content: space-between;
 
     strong {
-        font-size: 24px;
+      font-size: 24px;
     }
 
     button {
@@ -33,5 +33,31 @@ export const ModalBody = styled.div`
       background: #fff;
       display: flex;
     }
+  }
+
+  div {
+    margin-top: 32px;
+
+    > small {
+      font-size: 14px;
+      opacity: 0.8;
+    }
+
+    div {
+      margin-top: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+  }
+`;
+
+export const OrderDetails = styled.div`
+  margin-top: 32px;
+
+  > strong {
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.8;
   }
 `;
